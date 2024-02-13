@@ -1,3 +1,4 @@
+```
 MATRIX_MULTIPLY(A, B):
  if columns(A) ≠ rows(B):
    raise ValueError("Matrix multiplication is not defined.")
@@ -17,3 +18,4 @@ MATRIX_MULTIPLY(A, B):
 Best case: Omega(n^3)
 Worst case: O(n^3)
 Average Case: Tetha(n^3)
+```
