@@ -8,7 +8,7 @@ f(n) = 1
 k = 0
 Case 3: a > 1
 master theorem decreasing, so O(n^0  * 2^(1/1))
-solved recurrence relation T(n)= O((2^n) -1)
+solved recurrence relation T(n)= O((2^n) - 1)
 
 
 T(N) = 3T(N-1) + n
