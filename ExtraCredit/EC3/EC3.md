@@ -10,10 +10,10 @@ function convertAdjListToAdjMatrix(adjList):
     return adjMatrix
 
 Explanation:
-adjList is the input adjacency list representing the graph.
-createMatrix(n, m) is a function that creates an n x m matrix filled with zeros.
-The algorithm iterates through each vertex in the adjacency list and marks the 
-corresponding entries in the adjacency matrix as 1 if there is an edge between the vertices.
+To convert adj list to an adj matrix we can iterate through each
+vertex in the adjacency list. For each vertex, iterate through
+its neighbors and mark the corresponding entry in the adjacency
+matrix as 1 if there is an edge between them.
 
 ```
 
@@ -31,11 +31,9 @@ function convertAdjMatrixToAdjList(adjMatrix):
 
 
 Explanation:
-
-adjMatrix is the input adjacency matrix representing the graph.
-createEmptyList(n) is a function that creates an empty list of size n.
-The algorithm iterates through each entry in the adjacency matrix.
-If an entry is 1, it adds the corresponding edge to the adjacency list.
+Iterate through each entry in the adjacency matrix.
+If an entry is 1, add the corresponding edge to the
+adjacency list by recording the relationship between vertices.
 ```
 ```
 function reverseDirectedGraph(graph):
@@ -48,11 +46,10 @@ function reverseDirectedGraph(graph):
     return reversedGraph
 
 Explanation:
-graph is the input directed graph.
-createEmptyGraph() is a function that creates an empty graph.
-The algorithm iterates through each vertex in the graph and each
-of its neighbors. It adds edges to the reversed graph in the opposite
-direction compared to the original graph.
+Iterate through each vertex in the graph.
+For each vertex, iterate through its outgoing edges
+and reverse the direction of each edge by adding it
+to the reversed graph in the opposite direction.
 
 ```
 
